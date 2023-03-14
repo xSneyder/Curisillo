@@ -1,0 +1,13 @@
+
+* {
+    box-sizing: content-boxx;
+}
+
+:root {
+    --font-texto: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Recetas {
+    font-family: var(--font-texto);
+    background-color:rgb(31, 113, 141) ;
+}
