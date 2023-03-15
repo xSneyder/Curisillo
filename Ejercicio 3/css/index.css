@@ -7,6 +7,11 @@
     --font-texto: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+<<<<<<< HEAD
+#Recetas {
+    font-family: var(--font-texto);
+    background-color:rgb(31, 113, 141) ;
+=======
 body {
     font-family: var(--font-texto);
     background-color: aliceblue;
@@ -15,4 +20,5 @@ body {
 
 article section {
     background-color: rgb(6, 163, 119);
+>>>>>>> a76ca32e54baaccff370d379b9d385584fd76767
 }
