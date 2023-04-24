@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tareas</h1>
+      <span>Búsqueda </span>
+      <input type="search" id="busqueda" title="busqueda">
+    </header>
+
+    <h2>Predeterminados</h2>
+
+    <section id="predeterminados">
+      <ul>
+        <li>Mi día</li>
+        <li>Importante</li>
+        <li>Planeado</li>
+        <li>Asignadas a mi usuario</li>
+        <li>Tareas</li>
+      </ul>
+    </section>
+
+    <section id="usuario">
+      <label for="new-list">+</label>
+      <input type="text" id="new-list" placeholder="Nueva lista" />
+
+      <button type="button" title="Crear grupo">
+        Crear grupo
+      </button>
+
+      <p>
+        <caption title="Crear nuevo grupo"> Grupo
+          <input
+            type="text"
+            name="grupo-sin-titulo"
+            id="grupo-sin-titulo"
+            placeholder="Grupo sin titulo"
+          />
+        
+      </p>
+    </section>
+
+    <!-- <optgroup></optgroup> Etiquetazo --> 
+    <main>
+      <section id="mi-dia">
+        <h2>Mi día</h2>
+      </section>
+    </main>
+    
+  </body>
+</html>
